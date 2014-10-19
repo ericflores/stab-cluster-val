@@ -7,6 +7,6 @@ All the four building blocks used by stability-based cluster validation algorith
 
 The four building blocks are: 
 1. Generate Variants 
-2. 2. Assign Labels 
-3. 3. Measure Label Concurrency 
-4. 4. Measure (In)Stability.
+2. Assign Labels 
+3. Measure Label Concurrency 
+4. Measure (In)Stability.
