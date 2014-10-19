@@ -112,6 +112,9 @@ class StabilityValidation(object):
          is performed 10 times, then this list will have 10 scalars."""
 
     def find_cluster_num(self, data, n_runs = 10, max_clusters=10, clustering_method='KMeans', **other):
+        """This is the main function implementing the Stability Based Clustering Validation search
+        for optimal number of clusters. It returns a dictionary having with results calculated for 
+        each value of number of clusters."""
         results = {}
         for n_clusters in range(2, max_clusters + 1):
             #trials = []
