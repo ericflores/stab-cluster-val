@@ -1,6 +1,7 @@
 stab-cluster-val
 ================
 [![DOI](https://zenodo.org/badge/7250/ericflores/stab-cluster-val.png)](http://dx.doi.org/10.5072/zenodo.12739)
+
 This module implements a modular version of stability-based cluster validation using Cluster Validation by Prediction Strength presented by Tibshirani, R., & Walther, G. (2005). 
 
 All the four building blocks used by stability-based cluster validation algorithms will be available to be overriden in a child class to allow future researchers to easily implement variations of any of the existing or future stability-based clustering validation methods.
